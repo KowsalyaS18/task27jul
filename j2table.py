@@ -6,7 +6,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://kowsalya:Kowsi@localhost:5432/test1'
 app.debug = True
 db = SQLAlchemy(app)
-
+ 
 
 class emplDet(db.Model):
     __tablename__ = 'employee'
